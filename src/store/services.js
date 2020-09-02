@@ -1,9 +1,5 @@
 import axios from "axios"
-import {
-  NEW_CONNECTOR_2_SEPT_BODY,
-  NEW_CONNECTOR_2_SEPT_HEADER_BGFVHGFH,
-  NEW_CONNECTOR_2_SEPT_HEADER_HGGHJGJH
-} from "react-native-dotenv"
+import {} from "react-native-dotenv"
 const newConnector2sept = axios.create({
   baseURL:
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/9686/storyboard/10432/",
